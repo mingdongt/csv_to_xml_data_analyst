@@ -1,0 +1,13 @@
+<!DOCTYPE attributes [
+  <!ELEMENT attributes (attribute*)>
+  <!ELEMENT attribute (name, properties?, modes?, uniques?)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT properties (property+)>
+  <!ELEMENT property (#PCDATA)>
+  <!ELEMENT modes (mode+)>
+  <!ELEMENT mode (#PCDATA)>
+  <!ELEMENT uniques (unique+)>
+  <!ELEMENT unique (#PCDATA)>
+  <!ATTLIST attribute type (integer|float|string) #REQUIRED>
+  <!ATTLIST property name (min|q1|median|q3|max) #REQUIRED>
+  ]>
