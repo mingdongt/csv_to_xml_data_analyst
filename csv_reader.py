@@ -1,4 +1,4 @@
-"""A pure csv reader which returns a data in rows"""
+""" A pure csv reader which returns data in rows. """
 
 import csv
 
