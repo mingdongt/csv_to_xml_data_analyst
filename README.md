@@ -46,3 +46,11 @@ For example, if a column contains the following data ['A','B','C','A','A','C','D
 The result of this process should then be written into an XML file called output.xml.
 
 This XML file should be well-formed valid against summary.dtd
+
+## Example
+
+`Enter the path of the CSV file that would be processed: test_files/iris.csv`
+
+`Enter the path of the XML file that would be generated: output.xml`
+
+`The XML file has been successfully generated.`
