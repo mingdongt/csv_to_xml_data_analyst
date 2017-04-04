@@ -1,3 +1,5 @@
+""" Perform the whole process of processing data. """
+
 import csv_reader
 import data_processor
 import xml_writer
