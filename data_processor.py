@@ -1,4 +1,4 @@
-""" A module of data processor """
+""" A module of data analyzer which returns feature data for input data. """
 
 from collections import defaultdict
 
