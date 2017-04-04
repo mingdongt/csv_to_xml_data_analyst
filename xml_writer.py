@@ -1,9 +1,9 @@
-""" A module of xml writer which is custom for feature data set. """
+""" A module of xml writer which writes feature data set into a xml file. """
 
 from lxml import etree
 
 
-def write_data_to_xml(feature_data):
+def write_data_to_xml(feature_data, xml_name):
     """ write data to xml file. """
 
     root = etree.Element('attributes')
@@ -49,7 +49,7 @@ def write_data_to_xml(feature_data):
                             encoding="UTF-8",
                             xml_declaration=True)
 
-    open('output.xml', 'w').write(output)
+    open(xml_name, 'w').write(output)
 
 
 def build_property_branch(root, branch_content, branch_name, attribute,
