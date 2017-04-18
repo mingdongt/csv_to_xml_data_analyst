@@ -8,9 +8,9 @@ import xml_writer
 def main():
 
     input_file_path = \
-        raw_input("Enter the path of the CSV file that would be processed: ")
+        raw_input("Enter the relative path of the CSV file that would be processed: ")
     output_file_path = \
-        raw_input("Enter the path of the XML file that would be generated: ")
+        raw_input("Enter the relative path of the XML file that would be generated: ")
 
     data = csv_reader.get_data(input_file_path)
     feature_data = data_analyzer.process_data(data)
