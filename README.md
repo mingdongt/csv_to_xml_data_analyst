@@ -48,6 +48,7 @@ The result of this process should then be written into an XML file called output
 This XML file should be well-formed valid against summary.dtd
 
 ## Example
+Run phase1.py at terminal:
 
 `Enter the path of the CSV file that would be processed: test_files/iris.csv`
 
