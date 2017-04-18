@@ -48,10 +48,10 @@ The result of this process should then be written into an XML file called output
 This XML file should be well-formed valid against summary.dtd
 
 ## Example
-Run phase1.py at terminal:
+Run worker.py at terminal:
 
-`Enter the path of the CSV file that would be processed: test_files/iris.csv`
+`Enter the relative path of the rel CSV file that would be processed: test_files/iris.csv`
 
-`Enter the path of the XML file that would be generated: output.xml`
+`Enter the relative path of the XML file that would be generated: output.xml`
 
 `The XML file has been successfully generated.`
